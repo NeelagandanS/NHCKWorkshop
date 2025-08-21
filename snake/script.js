@@ -92,6 +92,6 @@ const initGame = () => {
     playBoard.innerHTML = html;
 }
 
-updateFoodPosition();
+updateFoodPosition(); //calling the updateFoodPosition function
 setIntervalId = setInterval(initGame, 100);
-document.addEventListener("keydown", changeDirection);
+document.addEventListener("keydown", changeDirection); 
