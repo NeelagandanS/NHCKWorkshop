@@ -93,5 +93,5 @@ const initGame = () => {
 }
 
 updateFoodPosition(); //calling the updateFoodPosition function
-setIntervalId = setInterval(initGame, 100);
+setIntervalId = setInterval(initGame, 100); //setting interval to 1second or 100milliseconds
 document.addEventListener("keydown", changeDirection); 
